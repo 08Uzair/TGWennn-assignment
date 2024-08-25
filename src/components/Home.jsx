@@ -65,7 +65,6 @@ const Home = () => {
 
       await tx.wait();
 
-    
       if (result === selectedSide) {
         toast.success(
           `You won! The coin landed on ${result}. You've doubled your bet.`
@@ -109,7 +108,7 @@ const Home = () => {
           </p>
         </div>
         <div className="item">
-          <button onClick={connectWallet}>
+          <button className="p-2 rounded-xl " onClick={connectWallet}>
             {!account ? <>Connect Account</> : <>Connected</>}
           </button>
           Balance in ETH: <div className="txt1">{balance} ETH</div>
@@ -121,7 +120,7 @@ const Home = () => {
                 <img src={head} alt="Heads" />
               </div>
             ) : coinResult == "Heads" ? (
-              <div className="side heads">
+              <div className="side heads p-2 rounded-xl ">
                 <img src={head} alt="Heads" />
               </div>
             ) : (
@@ -146,7 +145,7 @@ const Home = () => {
           </div>
         </div>
         <div className="item">
-          <button className="txt1" onClick={flipCoin}>
+          <button className="txt1 p-2 rounded-xl " onClick={flipCoin}>
             Flip Coin
           </button>
         </div>
@@ -169,7 +168,7 @@ const Home = () => {
           />
         </div>
         <div className="item">
-          <div className="txt3">
+          <div className="txt3 p-2 rounded-xl ">
             <p>Coin landed on: {coinResult}</p>
           </div>
         </div>
