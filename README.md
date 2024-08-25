@@ -62,6 +62,6 @@ This project is a blockchain-based coinflip game where users can connect their w
 
 Thank you for checking out the project! Feel free to reach out if you have any questions.
 
-Email : `uzerqureshi26@gmail.com`
-[Linkdin](https://www.linkedin.com/in/uzairqureshi0803) 
+Email : uzerqureshi26@gmail.com | 
+[Linkedin](https://www.linkedin.com/in/uzairqureshi0803) | 
 [GitHub](https://github.com/08Uzair)
